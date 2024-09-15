@@ -12,7 +12,7 @@ const routes = [
   { path: "/login", element: <AuthenticatedRedirect><Login /></AuthenticatedRedirect>, protected: false },
   { path: "/signup", element: <AuthenticatedRedirect><Signup /></AuthenticatedRedirect>, protected: false },
   { path: "/", element: <Home />, protected: true },
-  { path: "/dashboard", element: <Dashboard />, protected: true },
+  // { path: "/dashboard", element: <Dashboard />, protected: true },
   {path:"/generate-course", element:<GenerateCourse/>,protected:true},
   // {path:"/modules", element:<ModuleDetailsPage />,protected:true },
   {path:"/courses/:moduleId", element:<ModuleDetailsPage/>,protected:true }, 

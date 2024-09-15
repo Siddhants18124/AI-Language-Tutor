@@ -24,14 +24,14 @@ function Navbar() {
                                     </Link>
                                 </li>
 
-                                <li>
+                                {/* <li>
                                     <Link
                                         className="text-gray-600 transition hover:text-blue-600 dark:text-gray-300 dark:hover:text-blue-400"
                                         to="/dashboard"
                                     >
                                         Dashboard
                                     </Link>
-                                </li>
+                                </li> */}
                             </ul>
                         </nav>
 
