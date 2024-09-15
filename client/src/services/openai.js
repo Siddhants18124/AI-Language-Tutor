@@ -1,6 +1,6 @@
 import axiosInstance from './axiosInstance';
 
-const BASE_URL = 'http://localhost:5001/api/courses';
+const BASE_URL = 'https://server-tutor-93339ols8-siddhant-sharmas-projects-055f8421.vercel.app/api/courses';
 
 const ModuleService = {
     getModule: async (moduleId) => {
